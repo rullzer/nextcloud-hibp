@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<info>
+	<id>hibp</id>
+	<name>haveibeenpwnd</name>
+	<summary>Regulary check your account data against haveibeenpwned.com</summary>
+	<description>Check your password on each login against the HIBP data.</description>
+	<version>0.1.0</version>
+	<licence>agpl</licence>
+
+	<author>Roeland Jago Douma</author>
+	<author>Christoph Wurst</author>
+
+	<namespace>HIBP</namespace>
+
+	<types>
+		<authentication/>
+	</types>
+
+	<category>security</category>
+
+	<website>https://github.com/rullzer/nextcloud-hibp</website>
+	<bugs>https://github.com/rullzer/nextcloud-hibp/issues</bugs>
+	<repository type="git">https://github.com/rullzer/nextcloud-hibp/twofactor_nextcloud_notification.git</repository>
+
+	<dependencies>
+		<database>sqlite</database>
+		<database>mysql</database>
+		<database>pgsql</database>
+		<nextcloud min-version="21" max-version="22" />
+	</dependencies>
+</info>
